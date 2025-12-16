@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot Inklusif Interaktif</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="chat-container">
+      <h1>Chatbot Inklusif Interaktif</h1>
+      <div id="chat-box"></div>
+
+      <div class="chat-controls">
+        <button id="tts-btn">🔊 Dengarkan Jawaban</button>
+        <select id="tts-speed">
+          <option value="1">Normal</option>
+          <option value="0.75">Lambat</option>
+          <option value="1.25">Cepat</option>
+        </select>
+        <button id="btn-summary">📄 Ringkas</button>
+        <button id="btn-full">📄 Lengkap</button>
+      </div>
+
+      <input
+        type="text"
+        id="user-input"
+        placeholder="Ketik pesan atau jawaban latihan..."
+      />
+      <button id="send-btn">Kirim</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>
