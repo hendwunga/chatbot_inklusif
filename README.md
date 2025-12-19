@@ -108,10 +108,7 @@ http://127.0.0.1:5000
 Proyek ini dikembangkan untuk memenuhi **Ujian Akhir Semester (UAS)** mata kuliah **Eksperimen Pemrograman**.
 
 - **Nama Mahasiswa**: Hendrikus Yohanes Wunga
-- **NIM**: 225314039
 - **Dosen Pengampu**: Beni Utomo, M.Sc
-- **Program Studi**: Informatika
-- **Fakultas**: Sains dan Teknologi
 - **Universitas**: Universitas Sanata Dharma
 
 ---
